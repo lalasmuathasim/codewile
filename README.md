@@ -1,12 +1,15 @@
 
 # codewile
-
 Codewile is the frontend generated for codewile.com. This is decoupled frontend where the data is provided using GraphQL from a django application (tier.codewile.com)
 
 ## Setting up local development environement
 
+1. If you do not have node installed please go ahead and install node in your local development machine
+2. Install gatsby-cli `npm install -g gatsby-cli`
+3. You may initialise a new gatsby project or bootstrap any gatsby starter pack like `gatsby new folder https://github.com/gatsbyjs/gatsby-starter-hello-world`
+4. If you have already cloned your empty git repository move the folders and files from the `folder` to your root working folder to which you cloned your repository
 
-## 🧐 What's inside?
+## What's inside?
 
 A quick look at the top-level files and directories you'll see in a Gatsby project.
 
@@ -48,18 +51,3 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 12. **`README.md`**: A text file containing useful reference information about your project.
 
-## 🎓 Learning Gatsby
-
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.com/). Here are some places to start:
-
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.com/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
-
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.com/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
-
-## 💫 Deploy
-
-[Build, Deploy, and Host On The Only Cloud Built For Gatsby](https://www.gatsbyjs.com/cloud/)
-
-Gatsby Cloud is an end-to-end cloud platform specifically built for the Gatsby framework that combines a modern developer experience with an optimized, global edge network.
-
-<!-- AUTO-GENERATED-CONTENT:END -->
