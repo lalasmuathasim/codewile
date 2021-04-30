@@ -9,6 +9,33 @@ Codewile is the frontend generated for codewile.com. This is decoupled frontend 
 3. You may initialise a new gatsby project or bootstrap any gatsby starter pack like `gatsby new folder https://github.com/gatsbyjs/gatsby-starter-hello-world`
 4. If you have already cloned your empty git repository move the folders and files from the `folder` to your root working folder to which you cloned your repository
 
+## Netlify setups
+1. Login to netlify
+2. Click on create new site then Connect to Git provider and Pick a repository 
+3. Then you will be able to deploy the site
+4. After this you will be able to setups your domain
+5. for a domain that you already own please do the following
+Point www CNAME record to upbeat-cori-328647.netlify.app
+Log in to the account you have with your DNS provider, and add a CNAME record for www pointing to upbeat-cori-328647.netlify.app.
+
+www CNAME upbeat-cori-328647.netlify.app.
+Point A record to 75.2.60.5
+Create an A record for codewile.com pointing to our load balancer’s IP address 75.2.60.5.
+
+codewile.com A 75.2.60.5
+
+
+Set up Netlify DNS for your domain
+
+Update your domain’s name servers
+Last step! Log in to your domain provider and change your name servers to the following:
+
+dns1.p02.nsone.net
+dns2.p02.nsone.net
+dns3.p02.nsone.net
+dns4.p02.nsone.net
+
+
 ## What's inside?
 
 A quick look at the top-level files and directories you'll see in a Gatsby project.
